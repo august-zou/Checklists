@@ -14,6 +14,8 @@
 		970492DA1996435D0055BA81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 970492D81996435D0055BA81 /* Main.storyboard */; };
 		970492DC1996435D0055BA81 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 970492DB1996435D0055BA81 /* Images.xcassets */; };
 		970492E81996435E0055BA81 /* ChecklistsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 970492E71996435D0055BA81 /* ChecklistsTests.m */; };
+		970492F3199701EA0055BA81 /* ChecklistItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 970492F2199701EA0055BA81 /* ChecklistItem.m */; };
+		97E85B94199716EF00DFE655 /* ItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E85B93199716EF00DFE655 /* ItemDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		970492E11996435D0055BA81 /* ChecklistsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChecklistsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		970492E61996435D0055BA81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		970492E71996435D0055BA81 /* ChecklistsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChecklistsTests.m; sourceTree = "<group>"; };
+		970492F1199701EA0055BA81 /* ChecklistItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChecklistItem.h; sourceTree = "<group>"; };
+		970492F2199701EA0055BA81 /* ChecklistItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChecklistItem.m; sourceTree = "<group>"; };
+		97E85B92199716EF00DFE655 /* ItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemDetailViewController.h; sourceTree = "<group>"; };
+		97E85B93199716EF00DFE655 /* ItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,10 @@
 				970492DB1996435D0055BA81 /* Images.xcassets */,
 				970492D21996435D0055BA81 /* Checklists.xcdatamodeld */,
 				970492CB1996435D0055BA81 /* Supporting Files */,
+				970492F1199701EA0055BA81 /* ChecklistItem.h */,
+				970492F2199701EA0055BA81 /* ChecklistItem.m */,
+				97E85B92199716EF00DFE655 /* ItemDetailViewController.h */,
+				97E85B93199716EF00DFE655 /* ItemDetailViewController.m */,
 			);
 			path = Checklists;
 			sourceTree = "<group>";
@@ -219,7 +229,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				970492D11996435D0055BA81 /* AppDelegate.m in Sources */,
+				97E85B94199716EF00DFE655 /* ItemDetailViewController.m in Sources */,
 				970492CE1996435D0055BA81 /* main.m in Sources */,
+				970492F3199701EA0055BA81 /* ChecklistItem.m in Sources */,
 				970492D71996435D0055BA81 /* ViewController.m in Sources */,
 				970492D41996435D0055BA81 /* Checklists.xcdatamodeld in Sources */,
 			);
@@ -337,6 +349,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Checklists/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -348,6 +361,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Checklists/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -408,6 +422,7 @@
 				970492ED1996435E0055BA81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		970492EE1996435E0055BA81 /* Build configuration list for PBXNativeTarget "ChecklistsTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +431,7 @@
 				970492F01996435E0055BA81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
